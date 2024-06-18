@@ -1,0 +1,54 @@
+<처음 시작 시>
+
+git init 	-> 맨처음 프로젝트 올릴 때..
+
+git add .
+git add yjm.c
+
+git status
+
+git commit -m "first commit"	
+
+git remote add origin "path"
+
+git remote -v		-> 로컬과 github 연결고리
+
+git push origin master
+
+
+<업데이트  ..........>
+
+git add . 
+
+git status
+
+git commit -m "updata"
+
+git push origin master
+
+
+<팀프로젝트 하는 법>
+
+git clone "path"	->	내 로컬에 복제
+
+git add .
+
+git commit -m " "
+
+git push origin (master)
+git checkout -b freshman 				-> 새로운 공간 파주자
+git push origin (freshman)
+
+
+
+
+
+git pull origin master	-> 동기화 작업
+
+git push origin master
+
+pull push pull push ............
+
+
+
+git switch master (freshman, senior)
